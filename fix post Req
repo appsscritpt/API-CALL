@@ -1,0 +1,18 @@
+ var raw = {
+                                "clientRequestId": "7a53c0e70f543b65ecc76fa5",
+                                "targetAccountId": "6Q4XsY4X5o",
+                                "checklist.search": [
+                                 {
+                                  "propertyId" : id
+                                 }]
+                          }
+                          var apiConfig = {
+                                      method: "POST",
+                                      headers:{
+                                          "x-api-key": "SiD6E7I9Cl9Ys5R0MpuYK6pkmkqtGYt843BqBL2r",
+                                          "contentType": "application/json"
+                                          },
+                                      payload: JSON.stringify(raw),
+                                      } 
+
+                          var url = "https://5l14kpizah.execute-api.us-east-1.amazonaws.com/prod/apiEvent"
